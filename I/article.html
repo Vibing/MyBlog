@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="publice/css/grid.css" />
+    <link rel="stylesheet" href="publice/css/base.css" />
+    <link rel="stylesheet" href="publice/css/front/common.css" />
+    <link rel="stylesheet" href="publice/css/front/article.css" />
+</head>
+<body>
+<div class="bgimgBak"></div>
+<div class="tempHeader">
+    <header class="hdNav">
+        <div class="container clearfix">
+            <div class="row">
+                <div class="col-sm-6">
+                    <ul class="hLeft">
+                        <li class="curr"><a href="#"><i class="iconfont logo">&#xe601;</i>为伊冰酱</a></li>
+                        <li><a href="#">博客</a></li>
+                        <li><a href="#">砂砾</a></li>
+                        <li><a href="#">作品</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6">
+                    <ul class="hRight">
+                        <li><a href="#">About Me</a></li>
+                        <li><a href="#">留下脚印</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+</div>
+
+
+<div class="appContainer clearfix">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-3">
+                <div class="tags">
+                    <p class="tagTitle">标签</p>
+                    <div class="tagsContent">
+                        <a class="curr" href="#">全部<span>12</span></a>
+                        <a href="#">遐想<span>12</span></a>
+                        <a href="#">css3<span>12</span></a>
+                        <a href="#">jquery<span>5</span></a>
+                        <a href="#">设计及配色<span>5</span></a>
+                        <a href="#">自学<span>5</span></a>
+                        <a href="#">nodejs<span>5</span></a>
+                        <a href="#">架构<span>5</span></a>
+                        <a href="#">backbone<span>5</span></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-9">
+                <article class="article">
+                    <div class="caption">
+                        <h1>一步步实现JS时间格式化方法</h1>
+                        <p><span>发布时间：2015-03-09 </span></p>
+                    </div>
+                    <div class="articleContent">
+                        <p>在前端渲染页面（或列表）中，常常会涉及到时间的显示。通常做法是直接输出时间字段，
+                            于是精明的后端小伙伴在将时间以这种方式传递过来：1425879057705。相信这个玩意儿大伙儿都知道，叫时间戳。单纯的表示时间，不包含任何显示样式。
+                            如：<mark>"2015-03-09 13:30:57"</mark>。</p>
+                        <p>在前端渲染页面（或列表）中，常常会涉及到时间的显示。通常做法是直接输出时间字段，
+                            于是精明的后端小伙伴在将时间以这种方式传递过来：1425879057705。相信这个玩意儿大伙儿都知道，叫时间戳。单纯的表示时间，不包含任何显示样式。
+                            如：<mark>"2015-03-09 13:30:57"</mark>。</p>
+                        <img src="publice/images/bgImg.jpg">
+                        <p>在前端渲染页面（或列表）中，常常会涉及到时间的显示。通常做法是直接输出时间字段，
+                            于是精明的后端小伙伴在将时间以这种方式传递过来：1425879057705。相信这个玩意儿大伙儿都知道，叫时间戳。单纯的表示时间，不包含任何显示样式。
+                            如：<mark>"2015-03-09 13:30:57"</mark>。</p>
+                        <p>在前端渲染页面（或列表）中，常常会涉及到时间的显示。通常做法是直接输出时间字段，
+                            于是精明的后端小伙伴在将时间以这种方式传递过来：1425879057705。相信这个玩意儿大伙儿都知道，叫时间戳。单纯的表示时间，不包含任何显示样式。
+                            如：<mark>"2015-03-09 13:30:57"</mark>。</p>
+                        <p>在前端渲染页面（或列表）中，常常会涉及到时间的显示。通常做法是直接输出时间字段，
+                            于是精明的后端小伙伴在将时间以这种方式传递过来：1425879057705。相信这个玩意儿大伙儿都知道，叫时间戳。单纯的表示时间，不包含任何显示样式。
+                            如：<mark>"2015-03-09 13:30:57"</mark>。</p>
+                        <p>在前端渲染页面（或列表）中，常常会涉及到时间的显示。通常做法是直接输出时间字段，
+                            于是精明的后端小伙伴在将时间以这种方式传递过来：1425879057705。相信这个玩意儿大伙儿都知道，叫时间戳。单纯的表示时间，不包含任何显示样式。
+                            如：<mark>"2015-03-09 13:30:57"</mark>。</p>
+
+                        <pre>
+                            <code>
+$(document).ready(function () {
+    var $container = $('#masonry');
+    $container.imagesLoaded(function() {
+        $container.masonry({
+            itemSelector: '.artilesList li',
+            gutter: 17,
+            isAnimated: false
+        });
+    });
+
+    $("html").niceScroll({cursorcolor:"#1ABC9C"});
+
+    hljs.initHighlightingOnLoad();
+});
+                            </code>
+                        </pre>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="publice/js/libs/jquery-1.10.2.min.js"></script>
+<script src="publice/js/libs/jquery.nicescroll.js"></script>
+<script src="publice/js/libs/masonry-docs.min.js"></script>
+
+<link rel="stylesheet" href="publice/highlight/styles/zenburn.css" />
+<script src="publice/highlight/highlight.pack.js"></script>
+<script>
+    $(document).ready(function () {
+        var $container = $('#masonry');
+        $container.imagesLoaded(function() {
+            $container.masonry({
+                itemSelector: '.artilesList li',
+                gutter: 17,
+                isAnimated: false
+            });
+        });
+
+        $("html").niceScroll({cursorcolor:"#1ABC9C"});  // The document page (body)
+        hljs.initHighlightingOnLoad();
+
+    });
+</script>
+</html>

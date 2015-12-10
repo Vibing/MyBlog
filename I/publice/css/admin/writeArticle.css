@@ -1,0 +1,40 @@
+.admin-formIpt{
+    width:800px;
+    padding: 0 10px;
+    border: 1px solid #ddd;
+    color: #666;
+    font-size: 15px;
+    background: #fff;
+    border-color: #ccc;
+    -webkit-appearance: none;
+    border-radius: 6px;
+    height: 25px;
+    outline: none;
+    font-family: "Microsoft Yahei", "微软雅黑";
+}
+.admin-formIpt:focus{
+    border-color: #3498DB;
+}
+
+.admin-saveBtn{
+    padding: 5px 20px;
+    background: #27AE60;
+    color: #fff;
+    font-size: 14px;
+    border: none;
+    outline: 0;
+    font-family: "Microsoft Yahei", "微软雅黑";
+    cursor: pointer;
+}
+.admin-saveBtn:active{
+    background: #219350;
+}
+.admin-tag{
+    border: 1px solid #ccc;
+    background: #fff;
+    border-radius: 5px;
+    padding: 15px;
+}
+.admin-tag .admin-tagItem{
+    margin-right: 15px;
+}

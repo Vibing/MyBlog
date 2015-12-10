@@ -1,0 +1,74 @@
+body{
+    font-family: "microsoft yahei";
+    position:relative;
+    background: url("../../images/bgImg.jpg") no-repeat #323232;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    font-size: 14px;
+}
+.bgimgBak{
+    background: url("../../images/mask.png") repeat;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+/*header*/
+.tempHeader{
+    height: 50px;
+}
+.hdNav{
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-top: 2px solid #1ABC9C;
+    background: #34495E;
+    z-index: 2;
+}
+
+.hwrap{
+    width: 1130px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.wrap{
+    width: 1100px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.hLeft{
+    float:left;
+    margin-left: -15px;
+}
+.hLeft .logo{
+    font-size: 24px;
+    font-weight: bold;
+}
+.hRight{
+    float:right;
+    margin-right: -15px;
+}
+.hLeft li,.hRight li{
+    float:left;
+}
+.hLeft li a,.hRight li a{
+    color: #EAEDED;
+    display: block;
+    font-size: 16px;
+    height: 48px;
+    line-height: 48px;
+    outline: 0 none;
+    overflow: hidden;
+    padding: 0 15px;
+    text-align: center;
+    transition: all 0.2s linear 0s;
+    font-family: "Microsoft Yahei", "微软雅黑";
+}
+.hLeft li.curr a ,.hLeft li a:hover,.hRight li.curr a ,.hRight li a:hover{
+    color: #2FE2BF;
+}
+.appContainer{margin-top: 40px;}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="../publice/css/base.css" />
+    <link rel="stylesheet" href="../publice/css/admin/common.css" />
+    <link rel="stylesheet" href="../publice/css/admin/adddiy.css" />
+</head>
+<body>
+    <header class="header">
+        <div class="admin-wrap">
+            <div class="logo">
+                <a href="#"><i class="iconfont">&#xe601;</i>为伊冰酱</a>
+            </div>
+            <div class="admin-user fr">
+                <div class="admin-person">
+                    <div class="admin-himg">
+                        <div class="admin-hdImg"><img width="40" height="40" src="../publice/images/hdImg.jpg" /></div>
+                        <span class="admin-name">您好，管理员<i class="iconfont">&#xe602;</i></span>
+                    </div>
+                    <div class="admin-showlist">
+                        <a href="#"><i class="iconfont">&#xe606;</i>修改密码</a>
+                        <a href="#"><i class="iconfont">&#xe603;</i>登出</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="left">
+        <div class="leftContainer">
+            <ul class="leftNav">
+                <li><a admin-title="编写文章" href="#"><i class="iconfont">&#xe604;</i>撰写文章</a></li>
+                <li><a admin-title="文章列表" href="#"><i class="iconfont">&#xe605;</i>文章列表</a></li>
+                <li><a class="curr" admin-title="修改密码" href="#"><i class="iconfont">&#xe606;</i>修改密码</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="right">
+        <div class="rightContainer">
+           <div class="title">
+               文章列表
+           </div>
+            <div class="admin-uedit">
+                <input type="file" />
+                <div></div>
+                <input class="admin-formIpt mt20" type="password" placeholder="diy标题"/>
+                <div></div>
+                <textarea class="admin-formIpt mt20 h300" name="" id="" cols="30" rows="10" placeholder="简介"></textarea>
+                <p class="admin-fontsnum">2/90</p>
+                <div></div>
+                <button class="admin-saveBtn mt20">提交</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="../publice/js/libs/jquery-1.10.2.min.js"></script>
+<script src="../publice/js/libs/jquery.nicescroll.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $("body").niceScroll({cursorcolor:"#1ABC9C"});
+    });
+</script>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="../publice/css/base.css" />
+    <link rel="stylesheet" href="../publice/css/admin/common.css" />
+    <link rel="stylesheet" href="../publice/css/admin/articlelist.css" />
+</head>
+<body>
+    <header class="header">
+        <div class="admin-wrap">
+            <div class="logo">
+                <a href="#"><i class="iconfont">&#xe601;</i>为伊冰酱</a>
+            </div>
+            <div class="admin-user fr">
+                <div class="admin-person">
+                    <div class="admin-himg">
+                        <div class="admin-hdImg"><img width="40" height="40" src="../publice/images/hdImg.jpg" /></div>
+                        <span class="admin-name">您好，管理员<i class="iconfont">&#xe602;</i></span>
+                    </div>
+                    <div class="admin-showlist">
+                        <a href="#"><i class="iconfont">&#xe606;</i>修改密码</a>
+                        <a href="#"><i class="iconfont">&#xe603;</i>登出</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <div class="left">
+        <div class="leftContainer">
+            <ul class="leftNav">
+                <li><a admin-title="编写文章" href="#"><i class="iconfont">&#xe604;</i>撰写文章</a></li>
+                <li><a class="curr" admin-title="文章列表" href="#"><i class="iconfont">&#xe605;</i>文章列表</a></li>
+                <li><a admin-title="修改密码" href="#"><i class="iconfont">&#xe606;</i>修改密码</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="right">
+        <div class="rightContainer">
+           <div class="title">
+               文章列表
+           </div>
+            <div class="admin-uedit">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>文章名称</th>
+                            <th>发表时间</th>
+                            <th>所属标签</th>
+                            <th>操作</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><span class="admin-atitle">setTimeout的解析</span></td>
+                            <td>2015-4-29</td>
+                            <td>全部&nbsp;javascript&nbsp;css</td>
+                            <td><a class="admin-option" href="#">编辑</a><a class="admin-option" href="#">删除</a></td>
+                        </tr>
+                        <tr>
+                            <td><span class="admin-atitle">setTimeout的解析</span></td>
+                            <td>2015-4-29</td>
+                            <td>全部&nbsp;javascript&nbsp;css</td>
+                            <td><a class="admin-option" href="#">编辑</a><a class="admin-option" href="#">删除</a></td>
+                        </tr>
+                        <tr>
+                            <td><span class="admin-atitle">setTimeout的解析</span></td>
+                            <td>2015-4-29</td>
+                            <td>全部&nbsp;javascript&nbsp;css</td>
+                            <td><a class="admin-option" href="#">编辑</a><a class="admin-option" href="#">删除</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="../publice/js/libs/jquery-1.10.2.min.js"></script>
+<script src="../publice/js/libs/jquery.nicescroll.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $("body").niceScroll({cursorcolor:"#1ABC9C"});
+
+
+    });
+</script>
+</html>
